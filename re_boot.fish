@@ -8,7 +8,7 @@ function re_boot -d 'An alternative to `reboot`'
     set read_prompt "Reboot?"
 
     if read_confirm
-        sync; sync; sync;
+        supersync
         sudo shutdown -r now
     end
 end
