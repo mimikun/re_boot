@@ -6,5 +6,10 @@ An alternative to `reboot`
 
 [source,shell]
 ----
-fisher add github.com/mimikun/re_boot
+fisher install mimikun/re_boot
 ----
+
+== Require
+
+* https://github.com/mimikun/supersync[supersync]
+* https://github.com/mimikun/read_confirm[read_confirm]
